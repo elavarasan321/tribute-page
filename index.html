@@ -75,7 +75,7 @@
         }
        #timeline{
            padding: 15px;
-           text-align: left;
+           text-align: justify;
            line-height: 2.5;
            font-family: monospace;
            font-size: 16px;
@@ -95,7 +95,7 @@
            height: 500px;
            padding: 20px;
            display: flex;
-  
+            
        }
        #fir{
         width:50%; 
@@ -121,6 +121,25 @@
            z-index: 9999;
            cursor: pointer;
        }
+    @media (max-width:600px)
+    {
+        #mainfoot{
+            flex-direction: row;
+            flex-wrap: wrap;
+            height:100%;
+            width:100%;
+            
+        }
+        #fir{
+           width :100%;
+        }
+        #sec{
+           width :100%;
+          padding: 25px;
+          margin-left: 50px;
+           
+        }
+    }
         
       
 
